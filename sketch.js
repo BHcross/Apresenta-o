@@ -171,7 +171,7 @@ function GerarNuvens(){
   nuvem.scale = 0.6;
   ynuvem = height/100*10;
   var y2nuvem = height/100*80
-  nuvem.y = Math.round(random(height-ynuvem,height-y2nuvem));
+  nuvem.y = Math.round(random(height,height-y2nuvem));
     
   nuvem.depth = trex.depth;
   trex.depth = trex.depth+1;
